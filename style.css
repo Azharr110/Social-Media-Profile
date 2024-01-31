@@ -18,21 +18,36 @@ body{
     transform: translate(-50%, -50%);
     
 }
+
+/* .main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+
 .cover{
     width: 100%;
     height: 40%;
+    object-fit: cover;
 }
 .profile{
     width: 110px;
+    /* height: 110px; */
+    object-fit: cover;
     /* border-radius: 50%; */
     clip-path: circle();
     position: relative;
     left: 35%;
     bottom: 95px;
+    cursor: pointer;
     /* display: flex;
     align-items: center;
     justify-content: center; */
 }
+
 .name{
     position: absolute;
     bottom: 43%;
@@ -95,6 +110,7 @@ body{
     border-color: #c4173e ;
     font-size: 12px;
     font-weight: 100;
+    cursor: pointer;
 
     /* display: flex;
     align-items: center;
